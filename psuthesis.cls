@@ -395,7 +395,7 @@
 \thispagestyle{empty}
 \begin{singlespace}
 \noindent
-I grant The Pennsylvania State University the non-exclusive right to use this work for the University's own purposes and to make single copies of the work available to the public on a not-for-profit basis if copies are not otherwise available. \\[0.6in]
+I grant The University at Buffalo the non-exclusive right to use this work for the University's own purposes and to make single copies of the work available to the public on a not-for-profit basis if copies are not otherwise available. \\[0.6in]
 \mbox{} \hfill
 \parbox{3in}{\begin{center} \rule{3in}{0.4pt} \\ \psu@author
 \end{center}}
@@ -797,7 +797,7 @@ The following page is the Signature Page. The Signature Page needs to be given t
 
 \newcommand{\thesisabstract}[1]{%
 \pagestyle{plain}
-\chapter{Abstract}
+\chapter{Introduction}
     \begin{doublespace}
         \input{#1}
     \end{doublespace}
@@ -809,7 +809,7 @@ The following page is the Signature Page. The Signature Page needs to be given t
 \setcounter{secnumdepth}{10}
 \setcounter{tocdepth}{4}
 \newcommand{\thesistableofcontents}{%
-\begin{doublespace}
+\begin{singlespace}
 \if@twocolumn
 \@restonecoltrue\onecolumn
 \else
@@ -820,7 +820,7 @@ The following page is the Signature Page. The Signature Page needs to be given t
 \MakeUppercase\contentsname}{\MakeUppercase\contentsname}}%
 \@starttoc{toc}%
 \if@restonecol\twocolumn\fi%
-\end{doublespace}
+\end{singlespace}
 \clearpage
 }
 
@@ -843,7 +843,7 @@ The following page is the Signature Page. The Signature Page needs to be given t
 
 \renewcommand{\listtablename}{List of Tables}
 \newcommand{\thesislistoftables}{%
-\begin{doublespace}
+\begin{singlespace}
 \if@twocolumn
 \@restonecoltrue\onecolumn
 \else
@@ -854,7 +854,7 @@ The following page is the Signature Page. The Signature Page needs to be given t
 \MakeUppercase\listtablename}{\MakeUppercase\listtablename}}%
 \@starttoc{lot}%
 \if@restonecol\twocolumn\fi
-\end{doublespace}
+\end{singlespace}
 \clearpage
 }
 

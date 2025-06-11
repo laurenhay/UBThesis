@@ -1,85 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%     filename  = "Dissertation Index.tex",
-%     version   = "Draft 1",
-%     date      = "1/16/2013",
-%     authors   = "Nicholas P. Nicoletti",
-%     copyright = "Nicholas P. Nicoletti",
-%     address   = "Department of Political Science,
-%                  516 Park Hall,
-%                  University at Buffalo,
-%                  Buffalo, NY 14260,
-%                  USA",
-%     telephone = "(585) 752-5167",
-%     email     = "npn@buffalo.edu",
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% Change History:
-%
-% Draft Version 1.0 - No Changes.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% This is a template file to help get you started using the
-% psuthesis.cls for theses and dissertations at Penn State
-% University. You will, of course, need to put the
-% psuthesis.cls file someplace that LaTeX will find it.
-%
-% We have set up a directory structure that we find to be clean
-% and convenient. You can readjust it to suit your tastes. In
-% fact, the structure used by our students is even a little
-% more involved and commands are defined to point to the
-% various directories.
-%
-% This document has been set up to be typeset using pdflatex.
-% About the only thing you will need to change if typesetting
-% using latex is the \DeclareGraphicsExtensions command.
-%
-% The psuthesis document class uses the same options as the
-% book class. In addition, it requires that you have the
-% ifthen, calc, setspace, and tocloft packages.
-%
-% The first additional option specifies the degree type. You
-% can choose from:
-%     Ph.D. using class option <phd>
-%     M.S. using class option <ms>
-%     M.Eng. using class option <meng>
-%     M.A. using class option <ma>
-%     B.S. using class option <bs>
-%     B.A. using class option <ba>
-%     Honors Baccalaureate using the option <honors>
-%
-% If you specify either ba or bs in addition to honors, it will
-% just use the honors option and ignore the ba or bs option.
-%
-% The second additional option <inlinechaptertoc> determines
-% the formatting of the Chapter entries in the Table of
-% Contents. The default sets them as two-line entries (try it).
-% If you want them as one-line entries, issue the
-% inlinechaptertoc option.
-%
-% The class option ``honors'' should be used for theses
-% submitted to the Schreyer Honors College. This option
-% changes the formatting on the Title page so that the
-% signatures appear on the Title page. Be sure and comment
-% out the command \psusigpage when using this option since it
-% is not needed and it messes up the vertical spacing on the
-% Title page.
-%
-% The class option ``honorsdepthead'' adds the signature of the
-% department head on the Title page for those baccalaureate
-% theses that require this.
-%
-% The class option ``secondthesissupervisor'' should be used
-% for baccalaureate honors degrees if you have a second
-% Thesis Supervisor.
-%
-% The vita is only included with the phd option and it is
-% placed at the end of the thesis. The permissions page is only
-% included with the ms, meng, and ma options.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Only one of the following lines should be used at a time.
 \documentclass[phd,12pt]{psuthesis}
 %\documentclass[draft,phd,inlinechaptertoc]{psuthesis}
 %\documentclass[draft,ms]{psuthesis}
@@ -173,21 +91,21 @@
 % FRONT-MATTER %
 %%%%%%%%%%%%%%%%
 % Title
-\title{Designing Multi-Drone Networks and Applications}
+\title{Measurement of the Differential Cross-section with Respect to Mass and Transverse Momentum of QCD Multijet Events at $\sqrt{s}=13.6$ TeV at the CMS Detector}
 
 % Author and Date of Degree Conferral or Defense
-\author{SayedJalil Modares Najafabadi}
+\author{Lauren Hay}
 % the degree will be conferred on this date
-\degreedate{March 2017}
+\degreedate{January 2024}
 % year of your copyright. I have removed this from the cover page because UB's guidelines do not include it.
-\copyrightyear{2017}
+\copyrightyear{2024}
 
 % This is the document type. For example, this could also be:
 %     Comprehensive Document
 %     Thesis Proposal
 \documenttype{Disseration}
 %The department where you will be submitting the document%
-\dept{Department of Electrical Engineering}
+\dept{Department of Physics}
 % This will generally be The Graduate School, though you can
 % put anything in here to suit your needs. This has also been removes from the cover page via the psuthesis.cls document because UB guidelines do not allow for it.
 \submittedto{The Graduate School}
@@ -206,20 +124,20 @@
 % Input reader information below. The optional argument, which
 % comes first, goes on the second line before the name.
 \advisor[Thesis Advisor, Chair of Committee]
-        {Nicholas Mastronarde}
-        {Professor of Electrical Engineering}
+        {Dr. Salvatore Rapoccio}
+        {Professor of Physics}
 
 \readerone[Committee Member]
-          {Dimitris Pados}
-          {Professor of Electrical Engineering}
+          {Dr. Doreen Wackeroth}
+          {Professor of Physics}
 
 \readertwo[Committee Member]
-          {Weifeng Su}
-          {Professor of Electrical Engineering}
+          {Dr. Ciaran Williams}
+          {Professor of Physics}
 
 \readerthree[Committee Member]
-            {Josep M. Jornet}
-            {Professor of Electrical Engineering}
+            {Dr. Ia Iashvili}
+            {Professor of Physics}
 
 % Makes use of LaTeX's include facility. Add as many chapters
 % and appendices as you like.
@@ -330,9 +248,9 @@ Appendix-B/main%
 % \addtocontents if you want things to appear the proper
 % sequence. Since the PSU Grad School requires
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\appendix
-\include{Appendix-A/main}
-\include{Appendix-B/main}
+%\appendix
+%\include{Appendix-A/main}
+%\include{Appendix-B/main}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % ESM students need to include a Nontechnical Abstract as the %
 % last appendix.                                              %
@@ -351,7 +269,7 @@ Appendix-B/main%
 % bibliography. LaTeX's standard stuff is shown below. If you
 % bibtex, then this section should look something like:
    \begin{singlespace}
-   \bibliographystyle{unsrt}
+   \bibliographystyle{lucas_unsrt}
    \phantomsection \addcontentsline{toc}{chapter}{Bibliography}
    \bibliography{ref}
    \end{singlespace}
