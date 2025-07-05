@@ -24,6 +24,7 @@
 \usepackage[dvipsnames]{color}
 \DeclareGraphicsExtensions{.pdf, .jpg, .png}
 \usepackage{natbib}
+\setcitestyle{square}
 \usepackage{har2nat}
 \usepackage{verbatim} 
 \usepackage{url}
@@ -248,6 +249,8 @@ Appendix-B/main%
 \include{Chapter-3/main}
 \include{Chapter-4/main}
 \include{Chapter-5/main}
+}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Appendices
 %
@@ -267,7 +270,7 @@ Appendix-B/main%
 % that abstract.
 %\include{nontechnical-abstract}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-} % End of the \allowdisplaybreak command %
+ % End of the \allowdisplaybreak command %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%
@@ -282,6 +285,7 @@ Appendix-B/main%
    \phantomsection \addcontentsline{toc}{chapter}{References}
    \bibliography{AN-25-039}
    \end{singlespace}
+
 
 %\begin{singlespace}
 %\begin{thebibliography}{99}
